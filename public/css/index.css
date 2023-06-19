@@ -31,11 +31,7 @@ ul>li {
 header .button, span{
     background: red;
 }
-.susid {
-    background: blue;
-    color:white;
-}
-p~p{
+p[class='susid']~p{
     background: blue;
     color: white;
 }
@@ -65,10 +61,10 @@ li:first-child {
 .seven-task>span>p:first-of-type {
     background: red;
 }
-.seven-task>span>p:last-of-type {
+.eight-task>span>p:last-of-type {
     background: red;
 }
-.text-wrapper>p:only-of-type {
+.nine-task > div[class='text-wrapper']>p:only-of-type {
     background: yellow;
 }
 a[href] {
