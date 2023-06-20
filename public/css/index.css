@@ -15,10 +15,10 @@ h1 {
 #blue {
     color: blue;
 }
-div {
+.box > div {
     color: green;
 }
-p {
+.box > p {
     color:red;
 }
 .brown {
@@ -55,7 +55,7 @@ li:first-child {
 .five-task>ul:last-child>li:last-child {
     color:white;
 }
-.only-child-task>div {
+.only-child-task>div:only-child {
     color:red;
 }
 .seven-task>span>p:first-of-type {
@@ -97,8 +97,9 @@ button[class|="secondary"] {
 .lesson-three-task-nine>h2::first-letter {
     color:red;
 }
-.lesson-three-task-ten>p::first-line {
-   background:yellow;
+div [class='lesson-three-task-ten']>p:first-of-type {
+   background:yellow; 
+   /* <іншого методу не знайшов трохи схитрив, треба допомога в цьому > */
 }
 input::placeholder {
     background: red;
