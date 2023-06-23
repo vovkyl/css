@@ -97,7 +97,7 @@ button[class|="secondary"] {
 .lesson-three-task-nine>h2::first-letter {
     color:red;
 }
-div [class='lesson-three-task-ten']>p:first-of-type {
+div [class='lesson-three-task-ten']::first-line {
    background:yellow; 
    /* <іншого методу не знайшов трохи схитрив, треба допомога в цьому > */
 }
